@@ -16,7 +16,7 @@ dotenv.config();
 
 const PORT = process.env.PORT || 4000;
 const MongoDBURI = process.env.MongoDBURI;
-console.log(URI);
+console.log(MongoDBURI);
 
 
 // connect to mongoDB
